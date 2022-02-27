@@ -7,8 +7,6 @@ Package Name | Target Framework | Version | Downloads
 
 ## DynamicProxy for Microsoft.Extensions.DependencyInjection 
 
-###### This is library for working with Date and it's instead of System.DateTime when need Jalali date in .net applications.
-
 # Implemented with
 ```
   .net core 3.1
