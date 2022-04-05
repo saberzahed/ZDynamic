@@ -4,6 +4,16 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <AssemblyName>DynamicProxy</AssemblyName>
     <RootNamespace>Microsoft.Extensions.DependencyInjection</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>ZDynamicProxy</PackageId>
+    <PackageVersion>1.0.1</PackageVersion>
+    <Title>DynamicProxy</Title>
+    <Authors>saberzahed</Authors>
+    <Description>DynamicProxy for Microsoft.Extensions.DependencyInjection
+</Description>
+    <PackageProjectUrl>https://github.com/saberzahed/ZDynamic</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/saberzahed/ZDynamic</RepositoryUrl>
+    <RepositoryType>Github</RepositoryType>
   </PropertyGroup>
 
   <ItemGroup>

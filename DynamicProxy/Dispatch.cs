@@ -14,7 +14,7 @@ namespace Microsoft.Extensions.DependencyInjection
         {
             try
             {
-                _dispatcherEvent?.CallBefore(targetMethod, args);
+                _dispatcherEvent?.Before(targetMethod, args);
             }
             catch
             {
@@ -25,7 +25,7 @@ namespace Microsoft.Extensions.DependencyInjection
 
             try
             {
-                _dispatcherEvent?.CallAfter(targetMethod?.ReturnParameter, targetMethod?.ReturnType, result);
+                _dispatcherEvent?.After(targetMethod,  result);
             }
             catch
             {
