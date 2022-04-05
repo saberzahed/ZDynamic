@@ -20,7 +20,7 @@ Package Name | Target Framework | Version | Downloads
 ```
 Package Manager:
 
-  PM> Install-Package ZDynamicProxy -Version 1.0.0
+  PM> Install-Package ZDynamicProxy -Version 1.0.1
 ```
 [Nuget Page](https://www.nuget.org/packages/ZDynamicProxy/).
 
